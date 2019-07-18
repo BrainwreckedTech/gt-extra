@@ -14,5 +14,5 @@ To Use
 Ebuilds
 -------
 
-pantheon-base/pantheon-files (modified from gnome-next)
-: Avoid the evil `gnome-next` overlay at all costs
+* pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
+  > Avoid the evil `gnome-next` overlay at all costs
