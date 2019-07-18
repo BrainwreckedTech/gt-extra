@@ -22,7 +22,7 @@ DESCRIPTION="The Zen Kernel Live Sources"
 HOMEPAGE="https://github.com/zen-kernel"
 
 IUSE=""
-
+SLOT=0
 KEYWORDS=""
 
 EGIT_CHECKOUT_DIR="${WORKDIR}/linux-${KV_FULL}"
