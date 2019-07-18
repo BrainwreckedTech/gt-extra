@@ -19,7 +19,7 @@ inherit kernel-2 git-r3
 detect_version
 
 K_NOSETEXTRAVERSION="don't_set_it"
-DESCRIPTION="The Zen Kernel Reelease Sources"
+DESCRIPTION="The Zen Kernel Release Sources"
 HOMEPAGE="https://github.com/zen-kernel"
 
 IUSE=""
