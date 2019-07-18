@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>gt-extra</name>
+    <description>Personal overlay to add ebuilds from huge overlays that I don't want to use the entirety of.</description>
+    <homepage>https://github.com/BrainwreckedTech/gt-extra</homepage>
+    <owner type="person">
+      <name>BrainwreckedTech</name>
+      <email>3752022+BrainwreckedTech@users.noreply.github.com</email>
+    </owner>
+    <source type="git">git://github.com/BrainwreckedTech/gt-extra.git</source>
+    <source type="git">https://github.com/BrainwreckedTech/gt-extra.git</source>
+    <feed>https://github.com/BrainwreckedTech/gt-extra/commits/master.atom</feed>
+  </repo>
+</repositories>
