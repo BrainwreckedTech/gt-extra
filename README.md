@@ -14,5 +14,7 @@ To Use
 Ebuilds
 -------
 
-* pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
+- pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
   > Avoid the evil `gnome-next` overlay at all costs
+- sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
+  > Get current zen-sources as Gentoo stopped providing this kernel
