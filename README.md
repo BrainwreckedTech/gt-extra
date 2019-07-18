@@ -14,4 +14,5 @@ To Use
 Ebuilds
 -------
 
-Coming
+pantheon-base/pantheon-files (modified from gnome-next)
+: Avoid the evil `gnome-next` overlay at all costs
