@@ -19,12 +19,12 @@ inherit kernel-2 git-r3
 detect_version
 
 K_NOSETEXTRAVERSION="don't_set_it"
-DESCRIPTION="The Zen Kernel Live Sources"
+DESCRIPTION="The Zen Kernel Reelease Sources"
 HOMEPAGE="https://github.com/zen-kernel"
 
 IUSE=""
 SLOT=0
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 
 EGIT_CHECKOUT_DIR="${WORKDIR}/linux-${KV_FULL}"
 
