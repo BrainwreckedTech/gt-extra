@@ -11,8 +11,8 @@ CKV="${PV/99/}"
 
 ETYPE="sources"
 
-EGIT_BRANCH="${PV/.9999/}/master"
 EGIT_COMMIT="v${PV/.9999/}-zen1"
+EGIT_CLONE_TYPE=shallow
 EGIT_REPO_URI="https://github.com/zen-kernel/zen-kernel.git"
 
 inherit kernel-2 git-r3
