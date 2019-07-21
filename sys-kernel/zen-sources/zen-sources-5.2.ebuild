@@ -32,10 +32,8 @@ K_EXTRAEINFO="For more info on zen-sources, and for how to report problems, see:
 ${HOMEPAGE}, also go to #zen-sources on freenode"
 
 pkg_setup(){
-	ewarn "Be carefull!! You are about to install live kernel sources."
-	ewarn "Git zen-sources are extremely unsupported, even from the upstream"
-	ewarn "developers. Use them at your own risk and don't bite us if your"
-	ewarn "system explodes"
+	ewarn "You are about to install a kernel that is unsupported by."
+	ewarn "both Gentoo and the upstream developers.  Use it at your"
+        ewarn "own risk and don't bite anyone if your system explodes."
 	kernel-2_pkg_setup
 }
-
