@@ -18,3 +18,5 @@ Ebuilds
   > Avoid the evil `gnome-next` overlay at all costs
 - sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
   > Get current zen-sources as Gentoo stopped providing this kernel
+- x11-misc/lightdm-slick-greeter (pulled from [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+  > A performant greeter for LightDM
