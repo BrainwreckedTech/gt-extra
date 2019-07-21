@@ -14,6 +14,8 @@ To Use
 Ebuilds
 -------
 
+- app-editors/marker (pulled from [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+  > A GTK-based Markdown editor
 - pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
   > Avoid the evil `gnome-next` overlay at all costs
 - sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
