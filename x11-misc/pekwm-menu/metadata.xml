@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ph3@tuta.io</email>
+		<name>Paul Hinchberger III</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="inactive">
+			<email>nfisher.sr@gmail.com</email>
+			<name>Nathan Fischer</name>
+		</maintainer>
+		<doc lang="en">https://bitbucket.org/nfisher1226/pekwm-menu</doc>
+		<remote-id type="bitbucket">nfisher1226/pekwm-menu</remote-id>
+	</upstream>
+</pkgmetadata>
+
+

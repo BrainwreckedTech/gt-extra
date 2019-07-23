@@ -28,3 +28,5 @@ Ebuilds
   > Get current zen-sources as Gentoo stopped providing this kernel
 - x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A performant greeter for LightDM
+- x11-misc/pekwm-menu (gt-extra original packaging)
+  > Dynamic xdg menu creator for pekwm
