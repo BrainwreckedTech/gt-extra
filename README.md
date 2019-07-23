@@ -18,6 +18,8 @@ Ebuilds
   > A GTK-based Markdown editor
 - app-text/ix (gt-extra original packaging)
   > A commandline pastebin for shells
+- media-fonts/digital_7 (pulled from [jm-overlay](https://github.com/Jannis234/jm-overlay))
+  > Font that mimicks LCD displays like those in digital clocks
 - net-misc/net-setup (gt-extra original packaging, from Gentoo LiveCD Project)
   > CLI dialog-based helper to set up network connections
 - pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
