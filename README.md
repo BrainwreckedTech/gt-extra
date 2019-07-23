@@ -14,11 +14,11 @@ To Use
 Ebuilds
 -------
 
-- app-editors/marker (pulled from [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+- app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
 - app-text/ix (gt-extra original packaging)
   > A commandline pastebin for shells
-- media-fonts/digital_7 (pulled from [jm-overlay](https://github.com/Jannis234/jm-overlay))
+- media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
   > Font that mimicks LCD displays like those in digital clocks
 - net-misc/net-setup (gt-extra original packaging, from Gentoo LiveCD Project)
   > CLI dialog-based helper to set up network connections
@@ -26,5 +26,5 @@ Ebuilds
   > Avoid the evil `gnome-next` overlay at all costs
 - sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
   > Get current zen-sources as Gentoo stopped providing this kernel
-- x11-misc/lightdm-slick-greeter (pulled from [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+- x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A performant greeter for LightDM
