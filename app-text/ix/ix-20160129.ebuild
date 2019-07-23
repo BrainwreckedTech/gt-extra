@@ -7,7 +7,7 @@ DESCRIPTION="A command line pastebin - shell"
 HOMEPAGE="http://ix.io"
 SRC_URI="http://ix.io/client -> ix"
 
-LICENSE="unknown"
+LICENSE="unknown-libre"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
 IUSE=""
@@ -18,9 +18,9 @@ BDEPEND=""
 
 src_unpack() {
 	mkdir -p ${P}
-	cp ${DISTDIR}/ix ${P}/ix
+	cp ${DISTDIR}/${PN} ${P}/${PN}
 }
 
 src_install() {
-	dobin ix
+	dobin ${PN}
 }
