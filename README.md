@@ -18,6 +18,8 @@ Ebuilds
   > A GTK-based Markdown editor
 - app-text/ix (gt-extra original packaging)
   > A commandline pastebin for shells
+- net-misc/net-setup (gt-extra original packaging, from Gentoo LiveCD Project)
+  > CLI dialog-based helper to set up network connections
 - pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
   > Avoid the evil `gnome-next` overlay at all costs
 - sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
