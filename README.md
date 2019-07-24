@@ -18,6 +18,8 @@ Ebuilds
   > A GTK-based Markdown editor
 - app-text/ix (gt-extra original packaging)
   > A commandline pastebin for shells
+- dev-libs/granite  (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
+  > Avoid the evil `gnome-next` overlay at all costs
 - gnome-extra/zeitgeist (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
   > Avoid the evil `gnome-next` overlay at all costs
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
