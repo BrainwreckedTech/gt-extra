@@ -36,10 +36,10 @@ Ebuilds
 The following packages are necessary to get `pantheon-files` installed.
 All of these packages are either synced to or referenced from [gnome-next](https://github.com/Heather/gentoo-gnome),
 which should be avoided at all costs because it is evil.
-The plan is to eventually on reference said repository to provide newer packages.
+The plan is to eventually only reference said repository to provide newer packages.
 For now, some packages are synced directly to their origin.
 
 - dev-libs/granite  (synced)
-- gnome-extra/zeitgeist (synced)
-- pantheon-base/pantheon-files (referenced)
-- xfce-extra/tumbler (referenced)
+- gnome-extra/zeitgeist (referenced 1.0.1 to provide 1.0.2)
+- pantheon-base/pantheon-files (referenced 4.1.1 to provide 4.1.8)
+- xfce-extra/tumbler (referenced 0.2.1 to provide 0.2.5)
