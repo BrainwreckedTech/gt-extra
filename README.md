@@ -31,9 +31,15 @@ Ebuilds
 - x11-misc/pekwm-menu (gt-extra original packaging)
   > Dynamic xdg menu creator for pekwm
 
+### pantheon-files
 
-- dev-libs/granite  (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
-- gnome-extra/zeitgeist (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
-- pantheon-base/pantheon-files (referenced from [gnome-next](https://github.com/Heather/gentoo-gnome))
-- xfce-extra/tumbler (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
-  > Avoid the evil `gnome-next` overlay at all costs
+The following packages are necessary to get `pantheon-files` installed.
+All of these packages are either synced to or referenced from [gnome-next](https://github.com/Heather/gentoo-gnome),
+which should be avoided at all costs because it is evil.
+The plan is to eventually on reference said repository to provide newer packages.
+For now, some packages are synced directly to their origin.
+
+- dev-libs/granite  (synced)
+- gnome-extra/zeitgeist (synced)
+- pantheon-base/pantheon-files (referenced)
+- xfce-extra/tumbler (referenced)
