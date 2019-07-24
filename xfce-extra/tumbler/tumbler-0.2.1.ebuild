@@ -5,7 +5,7 @@ EAPI=6
 
 DESCRIPTION="Tumbler is a D-Bus service for applications to request thumbnails"
 HOMEPAGE="https://github.com/xfce-mirror/tumbler"
-SRC_URI="SRC_URI="https://archive.xfce.org/src/apps/${PN}/${PV%.*}/${P}.tar.bz2""
+SRC_URI="https://archive.xfce.org/src/apps/${PN}/${PV%.*}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
