@@ -20,6 +20,8 @@ Ebuilds
   > A commandline pastebin for shells
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
   > Font that mimicks LCD displays like those in digital clocks
+- media-fonts/overpass (referenced from [soft](https://bitbucket.org/Soft/overlay) and [luke-jr](https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr))
+  > An open source web font family inspired by Highway Gothic
 - net-misc/net-setup (gt-extra original packaging, from Gentoo LiveCD Project)
   > CLI dialog-based helper to set up network connections
 - pantheon-base/pantheon-files (modified from [gnome-next](https://github.com/Heather/gentoo-gnome))
