@@ -13,7 +13,7 @@ SRC_URI="https://github.com/elementary/granite/archive/${PV}.tar.gz -> ${P}.tar.
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="demo nls test"
 
 RDEPEND="
