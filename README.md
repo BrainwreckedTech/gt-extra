@@ -16,6 +16,8 @@ Ebuilds
 
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
+- app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
+  > An open source, community-driven framework for managing your zsh configuration
 - app-text/ix (gt-extra original packaging)
   > A commandline pastebin for shells
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
