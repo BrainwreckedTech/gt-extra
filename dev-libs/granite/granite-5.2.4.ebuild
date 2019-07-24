@@ -5,7 +5,7 @@ EAPI=6
 
 VALA_MIN_API_VERSION=0.40
 
-inherit cmake-utils gnome2-utils vala
+inherit meson gnome2-utils vala
 
 DESCRIPTION="Elementary OS library that extends Gtk+"
 HOMEPAGE="https://github.com/elementary/granite"
@@ -31,13 +31,25 @@ DEPEND="${RDEPEND}
 src_prepare() {
 
 	# Disable building of the demo application (if needed)
-	use demo || cmake_comment_add_subdirectory demo
+	use demo || sed -i "s:^\(subdir('demo')\):#\1:g" meson.build
 
 	# Disable generation of the translations (if needed)
-	use nls || cmake_comment_add_subdirectory po
+	use nls || sed -i "s:^\(subdir('po')\):#\1:g" meson.build
 
-	cmake-utils_src_prepare
 	vala_src_prepare --vala-api-version 0.40
+	eapply_user
+}
+
+src_configure() {
+	meson_src_configure
+}
+
+src_compile() {
+	meson_src_compile
+}
+
+src_install() {
+	meson_src_install
 }
 
 pkg_preinst() {
