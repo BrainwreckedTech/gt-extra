@@ -36,3 +36,5 @@ Ebuilds
   > A performant greeter for LightDM
 - x11-misc/pekwm-menu (gt-extra original packaging)
   > Dynamic xdg menu creator for pekwm
+- xfce-extra/tumbler (synced to [gnome-next](https://github.com/Heather/gentoo-gnome))
+  > Avoid the evil `gnome-next` overlay at all costs
