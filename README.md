@@ -53,6 +53,8 @@ Some changes were minimal while others required work.
   > Python-based statusline/prompt utility
 - app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
   > An open source, community-driven framework for managing your zsh configuration
+- app-shells/zsh-syntax-highlighting (synced to [mv](https://cgit.gentoo.org/user/mv.git))
+  > FISH-like syntax highlighting for ZSH
 - app-vim/powerline-vim (synced to [raiagent](https://github.com/leycec/raiagent))
   > Vim plugin for Python-based Powerline
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
