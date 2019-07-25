@@ -55,14 +55,12 @@ Some changes were minimal while others required work.
   > An oh-my-zsh theme based on the Powerline Vim plugin
 - app-shells/zsh-syntax-highlighting (synced to [mv](https://cgit.gentoo.org/user/mv.git))
   > FISH-like syntax highlighting for ZSH
-- app-vim/powerline-vim (synced to [raiagent](https://github.com/leycec/raiagent))
-  > Vim plugin for Python-based Powerline
-- app-misc/powerline (synced to [raiagent](https://github.com/leycec/raiagent))
-  > Python-based statusline/prompt utility
 - app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
   > An open source, community-driven framework for managing your zsh configuration
 - app-shells/zsh-syntax-highlighting (synced to [mv](https://cgit.gentoo.org/user/mv.git))
   > FISH-like syntax highlighting for ZSH
+- app-vim/powerline-vim (synced to [raiagent](https://github.com/leycec/raiagent))
+  > Vim plugin for Python-based Powerline
 
 ### miscellaneous
 
