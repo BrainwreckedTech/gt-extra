@@ -49,6 +49,8 @@ Some changes were minimal while others required work.
 
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
+- app-misc/powerline (synced to [raiagent](https://github.com/leycec/raiagent))
+  > Python-based statusline/prompt utility
 - app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
   > An open source, community-driven framework for managing your zsh configuration
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
