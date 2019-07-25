@@ -15,12 +15,14 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
+TF=${SRC_URI##*/}
+
 src_unpack() {
 	mkdir -p ${P}
-	cp ${DISTDIR}/${PN}.zsh-theme ${P}/${PN}.zsh-theme
+	cp ${DISTDIR}/${TF} ${P}/${TF}
 }
 
 src_install() {
 	insinto /usr/share/oh-my-zsh/themes
-	doins bullet-train.zsh-theme
+	doins ${TF}
 }

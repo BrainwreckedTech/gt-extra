@@ -14,28 +14,25 @@ To Use
 Ebuilds
 -------
 
-- app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
-  > A GTK-based Markdown editor
-- app-shells/bullettrain (synced to [go-overlay](https://github.com/Dr-Terrible/go-overlay))
-  > A ZSH & BASH prompt theme inspired by the Powerline Vim plugin
-- app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
-  > An open source, community-driven framework for managing your zsh configuration
-- app-text/ix (gt-extra original packaging)
+### gt-extra originals
+
+- app-shells/oh-my-zsh-bullet-train-theme
+  > An oh-my-zsh theme based on the Powerline Vim plugin
+- app-text/ix
   > A commandline pastebin for shells
-- media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
-  > Font that mimicks LCD displays like those in digital clocks
-- media-fonts/overpass (referenced from [soft](https://bitbucket.org/Soft/overlay) and [luke-jr](https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr))
-  > An open source web font family inspired by Highway Gothic
-- net-misc/net-setup (gt-extra original packaging, from Gentoo LiveCD Project)
+- net-misc/net-setup
   > CLI dialog-based helper to set up network connections
-- sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
-  > Get current zen-sources as Gentoo stopped providing this kernel
-- x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
-  > A performant greeter for LightDM
-- x11-misc/pekwm-menu (gt-extra original packaging)
+- x11-misc/pekwm-menu
   > Dynamic xdg menu creator for pekwm
 
-### pantheon-files
+### gt-extra referenced/modified
+
+- media-fonts/overpass (referenced from [soft](https://bitbucket.org/Soft/overlay) and [luke-jr](https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr))
+  > An open source web font family inspired by Highway Gothic
+- sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
+  > Get current zen-sources as Gentoo stopped providing this kernel
+
+#### pantheon-files
 
 The following packages are necessary to get `pantheon-files` installed.
 These packages are referenced from [gnome-next](https://github.com/Heather/gentoo-gnome),
@@ -46,3 +43,15 @@ Some changes were minimal while others required work.
 - gnome-extra/zeitgeist (referenced 1.0.1 to provide 1.0.2)
 - pantheon-base/pantheon-files (referenced 4.1.1 to provide 4.1.8)
 - xfce-extra/tumbler (referenced 0.2.1 to provide 0.2.5)
+
+
+### gt-extra synced
+
+- app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+  > A GTK-based Markdown editor
+- app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
+  > An open source, community-driven framework for managing your zsh configuration
+- media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
+  > Font that mimicks LCD displays like those in digital clocks
+- x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+  > A performant greeter for LightDM
