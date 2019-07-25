@@ -16,6 +16,8 @@ Ebuilds
 
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
+- app-shells/bullettrain (synced to [go-overlay](https://github.com/Dr-Terrible/go-overlay))
+  > A ZSH & BASH prompt theme inspired by the Powerline Vim plugin
 - app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
   > An open source, community-driven framework for managing your zsh configuration
 - app-text/ix (gt-extra original packaging)
