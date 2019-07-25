@@ -53,6 +53,8 @@ Some changes were minimal while others required work.
   > Python-based statusline/prompt utility
 - app-shells/oh-my-zsh (synced to [gentoo-zh](https://github.com/microcai/gentoo-zh))
   > An open source, community-driven framework for managing your zsh configuration
+- app-vim/powerline-vim (synced to [raiagent](https://github.com/leycec/raiagent))
+  > Vim plugin for Python-based Powerline
 - media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
   > Font that mimicks LCD displays like those in digital clocks
 - x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
