@@ -36,7 +36,7 @@ src_prepare() {
 	# Disable generation of the translations (if needed)
 	use nls || sed -i "s:^\(subdir('po')\):#\1:g" meson.build
 
-	vala_src_prepare --vala-api-version 0.40
+	vala_src_prepare
 	eapply_user
 }
 
