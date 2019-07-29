@@ -66,9 +66,10 @@ Some changes were minimal while others required work.
 
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
-- app-text/ix
+- app-editors/nano-syntax-highlighting (gt-extra original)
+- app-text/ix (gt-extra original)
   > A commandline pastebin for shells
-- net-misc/net-setup
+- net-misc/net-setup (gt-extra original)
   > CLI dialog-based helper to set up network connections
-- www-client/lariza
+- www-client/lariza (referenced from [lanodanOverlay](https://hacktivis.me/git/overlay))
   > A simple web browser using GTK+ 3, GLib, and WebKit2GTK+
