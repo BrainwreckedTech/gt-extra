@@ -70,3 +70,5 @@ Some changes were minimal while others required work.
   > A commandline pastebin for shells
 - net-misc/net-setup
   > CLI dialog-based helper to set up network connections
+- www-client/lariza
+  > A simple web browser using GTK+ 3, GLib, and WebKit2GTK+
