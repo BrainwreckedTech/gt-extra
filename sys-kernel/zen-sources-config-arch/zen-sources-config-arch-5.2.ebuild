@@ -23,7 +23,7 @@ src_unpack() {
 
 src_configure() {
 	sed -i 's:CONFIG_LOCALVERSION_AUTO=.*:CONFIG_LOCALVERSION_AUTO=n:g' .config
-	sed -1 's:CONFIG_DEFAULT_HOSTNAME=.*:CONFIG_DEFAULT_HOSTNAME="gentoo"' .config
+	sed -i 's:CONFIG_DEFAULT_HOSTNAME=.*:CONFIG_DEFAULT_HOSTNAME="gentoo"' .config
 	touch .scmversion
 }
 
