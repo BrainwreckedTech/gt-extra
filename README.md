@@ -25,6 +25,8 @@ Ebuilds
 
 - sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
   > Get current zen-sources as Gentoo stopped providing this kernel
+- sys-kernel/zen-sources-config-arch (gt-extra original)
+  > Arch Linux's zen kernel configuration
 
 ### pantheon-files
 
@@ -67,6 +69,7 @@ Some changes were minimal while others required work.
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
 - app-editors/nano-syntax-highlighting (gt-extra original)
+  > Extra syntax highlighting configs for nano
 - app-text/ix (gt-extra original)
   > A commandline pastebin for shells
 - net-misc/net-setup (gt-extra original)
