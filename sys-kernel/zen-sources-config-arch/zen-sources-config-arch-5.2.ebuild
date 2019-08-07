@@ -22,7 +22,6 @@ src_unpack() {
 }
 
 src_configure() {
-	echo "$(pwd)"
 	sed -i 's:CONFIG_LOCALVERSION_AUTO=.*:CONFIG_LOCALVERSION_AUTO=n:g' .config
 	touch .scmversion
 }
