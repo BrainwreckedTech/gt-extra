@@ -7,11 +7,11 @@ K_PREPATCHED="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
 K_DEBLOB_AVAILABLE=0
-CKV="${PV/99/}"
+CKV="${PV}"
 
 ETYPE="sources"
 
-EGIT_COMMIT="v${PV/.9999/}-zen1"
+EGIT_COMMIT="v${PV}-zen1"
 EGIT_CLONE_TYPE=shallow
 EGIT_REPO_URI="https://github.com/zen-kernel/zen-kernel.git"
 
