@@ -1,11 +1,12 @@
-# Copyright 1999-2019 Gentoo Authors
+ # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 DESCRIPTION="Zen kernel configuration from Arch Linux"
-HOMEPAGE="http://ix.io"
-SRC_URI="https://git.archlinux.org/svntogit/packages.git/plain/trunk/config?h=packages/linux-zen -> .config"
+HOMEPAGE=""
+SRC_URI="x86? ( https://git.archlinux32.org/archlinux32/packages/raw/branch/master/extra/linux-zen/config -> .config32 )
+         amd64? ( https://git.archlinux.org/svntogit/packages.git/plain/trunk/config?h=packages/linux-zen -> .config64 )"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -18,12 +19,12 @@ BDEPEND=""
 
 src_unpack() {
 	mkdir -p ${P}
-	cp ${DISTDIR}/.config ${P}/.config
+	cp ${DISTDIR}/${A} ${P}/.config
 }
 
 src_configure() {
 	sed -i 's:CONFIG_LOCALVERSION_AUTO=.*:CONFIG_LOCALVERSION_AUTO=n:g' .config
-	sed -i 's:CONFIG_DEFAULT_HOSTNAME=.*:CONFIG_DEFAULT_HOSTNAME="gentoo"' .config
+	sed -i 's:CONFIG_DEFAULT_HOSTNAME=.*:CONFIG_DEFAULT_HOSTNAME="gentoo":g' .config
 	touch .scmversion
 }
 
