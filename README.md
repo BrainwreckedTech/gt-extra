@@ -16,36 +16,50 @@ Ebuilds
 
 ### fonts
 
-- media-fonts/digital_7 (synced to [jm-overlay](https://github.com/Jannis234/jm-overlay))
+- media-fonts/digital_7 (synced to [jm-overlay])
   > Font that mimicks LCD displays like those in digital clocks
-- media-fonts/overpass (referenced from [soft](https://bitbucket.org/Soft/overlay) and [luke-jr](https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr))
+- media-fonts/overpass (referenced from [soft] and [luke-jr])
   > An open source web font family inspired by Highway Gothic
+
+[jm-overlay]: https://github.com/Jannis234/jm-overlay
+[soft]: https://bitbucket.org/Soft/overlay
+[luke-jr]: https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr
 
 ### kernels
 
-- sys-kernel/zen-sources (modified from [gentoo](https://cgit.gentoo.org/repo/gentoo.git/))
+- sys-kernel/zen-sources (modified from [gentoo])
   > Get current zen-sources as Gentoo stopped providing this kernel
 - sys-kernel/zen-sources-config-arch (gt-extra original)
   > Arch Linux's zen kernel configuration
 
+[gentoo]: https://cgit.gentoo.org/repo/gentoo.git/
+
 ### pantheon-files
 
 The following packages are necessary to get `pantheon-files` installed.
-These packages are referenced from [gnome-next](https://github.com/Heather/gentoo-gnome),
-which should be avoided at all costs because it is evil.
-Some changes were minimal while others required work.
+These packages are referenced from [gnome-next], which should be avoided
+at all costs because it is evil.  Some changes were minimal while others
+required work.
 
-- dev-libs/granite (referenced 5.2.2 to provide 5.2.4)
-- gnome-extra/zeitgeist (referenced 1.0.1 to provide 1.0.2)
-- pantheon-base/pantheon-files (referenced 4.1.1 to provide 4.1.8)
-- xfce-extra/tumbler (referenced 0.2.1 to provide 0.2.5)
+- dev-libs/[granite] (referenced 5.2.2 to provide 5.2.4)
+- gnome-extra/[zeitgeist] (referenced 1.0.1 to provide 1.0.2)
+- pantheon-base/[pantheon-files] (referenced 4.1.1 to provide 4.1.8)
+- xfce-extra/[tumbler] (referenced 0.2.1 to provide 0.2.5)
+
+[granite]: https://github.com/elementary/granite/releases
+[zeitgeist]: https://launchpad.net/zeitgeist/+milestones
+[pantheon-files]: https://github.com/elementary/files/releases
+[tumbler]: https://archive.xfce.org/src/xfce/tumbler
+[gnome-next]: https://github.com/Heather/gentoo-gnome
 
 ### pekwm
 
 - x11-misc/pekwm-menu (gt-extra original)
   > Dynamic xdg menu creator for pekwm
-- x11-misc/lightdm-slick-greeter (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
+- x11-misc/lightdm-slick-greeter (synced to [jorgicio])
   > A performant greeter for LightDM
+
+[jorgicio]: https://github.com/jorgicio/jorgicio-gentoo-overlay
 
 ### zsh
 
