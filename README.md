@@ -27,12 +27,13 @@ Ebuilds
 
 ### kernels
 
-- sys-kernel/zen-sources (modified from [gentoo])
+- sys-kernel/[zen-sources] (modified from [gentoo])
   > Get current zen-sources as Gentoo stopped providing this kernel
 - sys-kernel/zen-sources-config-arch (gt-extra original)
   > Arch Linux's zen kernel configuration
 
 [gentoo]: https://cgit.gentoo.org/repo/gentoo.git/
+[zen-sources]: https://github.com/zen-kernel/zen-kernel
 
 ### pantheon-files
 
