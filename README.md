@@ -96,4 +96,4 @@ required work.
 
 [nano-syntax-highlighting]: https://github.com/scopatz/nanorc
 [ix]: http://ix.io/client
-[lanodonOverlay]: https://hacktivis.me/git/overlay
+[lanodanOverlay]: https://hacktivis.me/git/overlay
