@@ -18,10 +18,11 @@ Ebuilds
 
 - media-fonts/digital_7 (synced to [jm-overlay])
   > Font that mimicks LCD displays like those in digital clocks
-- media-fonts/overpass (referenced from [soft] and [luke-jr])
+- media-fonts/[overpass] (referenced from [soft] and [luke-jr])
   > An open source web font family inspired by Highway Gothic
 
 [jm-overlay]: https://github.com/Jannis234/jm-overlay
+[overpass]: https://github.com/RedHatBrand/Overpass/releases
 [soft]: https://bitbucket.org/Soft/overlay
 [luke-jr]: https://scm.dashjr.org/scmroot/git/portage-overlays/luke-jr
 
@@ -55,11 +56,12 @@ required work.
 
 ### pekwm
 
-- x11-misc/pekwm-menu (gt-extra original)
+- x11-misc/[pekwm-menu] (gt-extra original)
   > Dynamic xdg menu creator for pekwm
 - x11-misc/lightdm-slick-greeter (synced to [jorgicio])
   > A performant greeter for LightDM
 
+[pekwm-menu]: https://bitbucket.org/nfisher1226/pekwm-menu/downloads
 [jorgicio]: https://github.com/jorgicio/jorgicio-gentoo-overlay
 
 ### zsh
@@ -83,11 +85,15 @@ required work.
 
 - app-editors/marker (synced to [jorgicio](https://github.com/jorgicio/jorgicio-gentoo-overlay))
   > A GTK-based Markdown editor
-- app-editors/nano-syntax-highlighting (gt-extra original)
+- app-editors/[nano-syntax-highlighting] (gt-extra original)
   > Extra syntax highlighting configs for nano
-- app-text/ix (gt-extra original)
+- app-text/[ix] (gt-extra original)
   > A commandline pastebin for shells
 - net-misc/net-setup (gt-extra original)
   > CLI dialog-based helper to set up network connections
-- www-client/lariza (referenced from [lanodanOverlay](https://hacktivis.me/git/overlay))
+- www-client/lariza (referenced from [lanodanOverlay])
   > A simple web browser using GTK+ 3, GLib, and WebKit2GTK+
+
+[nano-syntax-highlighting]: https://github.com/scopatz/nanorc
+[ix]: http://ix.io/client
+[landonOverlay]: https://hacktivis.me/git/overlay
