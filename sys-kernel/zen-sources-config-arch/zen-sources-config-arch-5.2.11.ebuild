@@ -1,0 +1,1 @@
+zen-sources-config-arch-5.2.ebuild
