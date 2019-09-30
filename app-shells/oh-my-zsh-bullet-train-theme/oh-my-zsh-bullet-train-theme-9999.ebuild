@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="An oh-my-zsh shell theme based on the Powerline Vim plugin"
 HOMEPAGE="https://github.com/caiogondim/bullet-train.zsh"
-SRC_URI="http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme"
+SRC_URI="https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme"
 
 LICENSE="MIT"
 SLOT="0"
